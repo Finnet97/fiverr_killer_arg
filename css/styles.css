@@ -1,0 +1,48 @@
+
+* {
+    margin: 0px;
+}
+
+h1, h2, h3, p {
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.indexHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    background-color: lightblue;
+}
+
+.indexLogo {
+    display: flex;
+    align-items: center;
+}
+
+.indexLogo img {
+    width: 100px;
+}
+
+.indexUtilities {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+.indexFooterContainer {
+    display: flex;
+    justify-content: center;
+
+    background-color: lightblue;
+}
