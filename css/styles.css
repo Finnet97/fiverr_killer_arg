@@ -79,6 +79,38 @@ h1, h2, h3, p, a {
     height: 100%;
 }
 
+.indexPopularServicesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 35px;
+}
+
+.indexPopularServices {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.indexPopularServices article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 15px;
+
+    background-color: cornflowerblue;
+}
+
+.indexPopularServices article img {
+    width: 80px;
+}
+
+.indexExploreContainer {
+    
+}
+
 .indexFooterContainer {
     display: flex;
     justify-content: center;
