@@ -145,11 +145,29 @@ h1, h2, h3, p, a {
 }
 
 .indexFAQContainer {
-
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    gap: 20px;
 }
 
 .indexFAQ {
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.indexFAQ article {
+    display: flex;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    border: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: black;
+    padding: 0px 20px;
+    height: 60px;
+    justify-content: space-between;
 }
 
 .indexFooterContainer {
