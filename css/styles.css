@@ -1,6 +1,7 @@
 
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 h1, h2, h3, p, a {
@@ -15,7 +16,7 @@ h1, h2, h3, p, a {
     justify-content: space-evenly;
     align-items: center;
 
-    background-color: lightblue;
+    background-color: #f87939; /* Azul oscuro elegante */
 }
 
 .indexLogo {
@@ -37,9 +38,9 @@ h1, h2, h3, p, a {
     gap: 20px;
 }
 
-.indexUtilities ul li a{
+.indexUtilities ul li a {
     text-decoration: none;
-    color: black;
+    color: #ECF0F1; /* Blanco suave */
 }
 
 .indexNavWorkCategories ul {
@@ -52,12 +53,12 @@ h1, h2, h3, p, a {
     
     gap: 15px;
 
-    background-color: cadetblue;
+    background-color: #34495E; /* Azul medio */
 }
 
-.indexNavWorkCategories ul li a{
+.indexNavWorkCategories ul li a {
     text-decoration: none;
-    color: black;
+    color: #ECF0F1; /* Blanco suave */
 }
 
 .indexMain {
@@ -66,16 +67,13 @@ h1, h2, h3, p, a {
 }
 
 .indexFeaturedContainer {
-    background-color: aquamarine;
-
+    background-color: #1ABC9C; /* Verde agua */
     margin: 35px;
-
     height: 40vh;
 }
 
 .indexFeaturedContent {
-    background-color: beige;
-
+    background-color: #E8F8F5; /* Verde agua claro */
     height: 100%;
 }
 
@@ -99,8 +97,11 @@ h1, h2, h3, p, a {
     align-items: center;
     border-radius: 20px;
     padding: 0px 15px;
+    box-shadow: -1px 1px 20px -1px rgba(0,0,0,0.74);
+    -webkit-box-shadow: -1px 1px 20px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: -1px 1px 20px -1px rgba(0,0,0,0.74);
 
-    background-color: cornflowerblue;
+    background-color: #fdeee5; /* Azul brillante */
 }
 
 .indexPopularServices article img {
@@ -123,8 +124,11 @@ h1, h2, h3, p, a {
 .indexExploreSellers section {
     display: flex;
     gap: 20px;
-    background-color: burlywood;
+    background-color: #fdeee5; /* Amarillo elegante */
     border-radius: 20px;
+    box-shadow: -1px 1px 20px -1px rgba(0,0,0,0.74);
+    -webkit-box-shadow: -1px 1px 20px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: -1px 1px 20px -1px rgba(0,0,0,0.74);
 
     padding: 20px;
 
@@ -135,8 +139,11 @@ h1, h2, h3, p, a {
 .indexExploreBuyers section {
     display: flex;
     gap: 20px;
-    background-color: burlywood;
+    background-color: #fdeee5; /* Amarillo elegante */
     border-radius: 20px;
+    box-shadow: -1px 1px 20px -1px rgba(0,0,0,0.74);
+    -webkit-box-shadow: -1px 1px 20px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: -1px 1px 20px -1px rgba(0,0,0,0.74);
 
     padding: 20px;
 
@@ -159,12 +166,12 @@ h1, h2, h3, p, a {
 .indexFAQ article {
     display: flex;
     align-items: center;
-    background-color: lightgoldenrodyellow;
+    background-color: #fdeee5; /* Beige claro */
     border: 1px;
     border-left: 0px;
     border-right: 0px;
     border-style: solid;
-    border-color: black;
+    border-color: #2C3E50; /* Azul oscuro */
     padding: 0px 20px;
     height: 60px;
     justify-content: space-between;
@@ -174,5 +181,6 @@ h1, h2, h3, p, a {
     display: flex;
     justify-content: center;
 
-    background-color: lightblue;
+    color: white;
+    background-color: #2C3E50; /* Azul oscuro elegante */
 }
