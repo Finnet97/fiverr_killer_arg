@@ -108,6 +108,47 @@ h1, h2, h3, p, a {
 }
 
 .indexExploreContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    gap: 20px;
+}
+
+.indexExplore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.indexExploreSellers section {
+    display: flex;
+    gap: 20px;
+    background-color: burlywood;
+    border-radius: 20px;
+
+    padding: 20px;
+
+    width: 40vw;
+    height: 620px;
+}
+
+.indexExploreBuyers section {
+    display: flex;
+    gap: 20px;
+    background-color: burlywood;
+    border-radius: 20px;
+
+    padding: 20px;
+
+    width: 40vw;
+    height: 620px;
+}
+
+.indexFAQContainer {
+
+}
+
+.indexFAQ {
     
 }
 
